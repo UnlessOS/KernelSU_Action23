@@ -2,6 +2,7 @@ name: Build Kernel
 on:
   watch:
     types: [started]
+  pull_request:
 
   workflow_dispatch:
 
